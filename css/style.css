@@ -1,0 +1,102 @@
+body{
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: lightgray;
+  background-color: #222224;
+  margin: 0 auto;
+  padding: 1.5rem;
+  max-width: 960px;
+}
+
+p, h1, h2, h3, h4, h5, h6, figure{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  line-height: 1.2rem;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1rem;
+  clear: both;
+}
+
+a{
+  color: #2980B9;
+}
+
+ul li::before {
+  content: "•";
+  margin-right: 8px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p{
+  text-align: justify;
+}
+
+.poster{
+  width: 100%;
+  max-width: 400px;
+}
+
+figure{
+  float: right;
+  margin-left: 2rem;
+}
+
+figcaption {
+  margin: 5px 0 0;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+.container {
+display: block;
+background: black;
+border: none;
+height: 470px;
+width: 960px;
+margin: 0 auto; /* alinha o iframe */
+margin-top: 3rem;
+}
+
+.details{
+  line-height: 1.2rem;
+}
+
+footer{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cenas img{
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  display: inline-inline-flex;
+}
+
+#main_img img{
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 4rem;
+}
