@@ -88,6 +88,20 @@ footer{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   display: inline-inline-flex;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cenas img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.cenas img:active {
+  margin-left: 1px 1px 0;
+  box-shadow: -1px -1px 1px #000;
+  outline: 3px solid white;
+  -moz-outline-radius: 5px;
+  background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
 }
 
 #main_img img{
@@ -95,6 +109,8 @@ footer{
   max-width: 960px;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  -webkit-box-shadow: 5px 5px 10px -4px #FFFFFF;
+  box-shadow: 5px 5px 10px -4px #FFFFFF;
 }
 
 footer {
