@@ -1,5 +1,7 @@
+//alert("Welcome! to Matrix")
+
 function changeImage(a) {
-  document.getElementById("img").src=a
+  document.getElementById("banner").src = a
 }
 
 //function myFunction() {
