@@ -12,6 +12,23 @@ body {background: black;}
   z-index: 1;
 }
 
+@font-face {
+  font-family: matrix;
+  src: url('matrix.ttf');
+}
+
+header {
+  font-family: matrix;
+}
+
+header h3 {
+  text-align: center;
+}
+
+#h301 {
+  letter-spacing: 1rem;
+}
+
 #c {
   display: block;
   position: fixed;
@@ -34,7 +51,7 @@ blockquote {
 
 h1 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -58,7 +75,7 @@ ul li::before {
   margin-right: 8px;
 }
 
-p{
+p {
   text-align: justify;
 }
 
@@ -104,13 +121,13 @@ figcaption {
   max-width: 960px;
 }
 
-#box img{
+#box img {
   width: 100%;
   max-width: 300px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
   display: inline-flex;
   cursor: pointer;
   border-radius: 5px;
@@ -142,10 +159,10 @@ footer{
 }
 
 footer address {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: italic;
 }
 
 footer small{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
