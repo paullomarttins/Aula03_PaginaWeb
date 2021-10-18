@@ -1,8 +1,34 @@
 //alert("Welcome! to Matrix")
 
-function changeImage(a) {
-  document.getElementById("banner").src = a
-}
+let img = document.getElementById('banner');
+let img1 = document.getElementById('img1');
+let img2 = document.getElementById('img2');
+let img3 = document.getElementById('img3');
+
+img1.addEventListener('click', () => {
+  img3.style.border = '';
+  img2.style.border = '';
+  banner.src = 'imagens/matrix03.jpg';
+  img1.style.border = 'thin solid #b2dfdb';
+})
+
+img2.addEventListener('click', () => {
+  img1.style.border = '';
+  img3.style.border = '';
+  banner.src = 'imagens/matrix02.jpg';
+  img2.style.border = 'thin solid #b2dfdb';
+})
+
+img3.addEventListener('click', () => {
+  img1.style.border = '';
+  img2.style.border = '';
+  banner.src = 'imagens/matrix01.jpg';
+  img3.style.border = 'thin solid #b2dfdb';
+})
+
+//function changeImage(a) {
+//  document.getElementById("banner").src = a
+//}
 
 //function myFunction() {
 //  document.getElementById("#focus").focus();
