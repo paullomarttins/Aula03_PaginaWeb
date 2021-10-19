@@ -1,6 +1,6 @@
 //alert("Welcome! to Matrix")
 
-let img = document.getElementById('banner');
+let img = document.getElementById('main_img');
 let img1 = document.getElementById('img1');
 let img2 = document.getElementById('img2');
 let img3 = document.getElementById('img3');
@@ -8,21 +8,21 @@ let img3 = document.getElementById('img3');
 img1.addEventListener('click', () => {
   img3.style.border = '';
   img2.style.border = '';
-  banner.src = 'imagens/matrix03.jpg';
+  main_img.src = 'imagens/matrix03.jpg';
   img1.style.border = 'thin solid #b2dfdb';
 })
 
 img2.addEventListener('click', () => {
   img1.style.border = '';
   img3.style.border = '';
-  banner.src = 'imagens/matrix02.jpg';
+  main_img.src = 'imagens/matrix02.jpg';
   img2.style.border = 'thin solid #b2dfdb';
 })
 
 img3.addEventListener('click', () => {
   img1.style.border = '';
   img2.style.border = '';
-  banner.src = 'imagens/matrix01.jpg';
+  main_img.src = 'imagens/matrix01.jpg';
   img3.style.border = 'thin solid #b2dfdb';
 })
 
@@ -64,7 +64,7 @@ function draw()
     ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.fillStyle = "#f4427d";//green text
+    ctx.fillStyle = "#00ff41";//"#f4427d";//green text
     ctx.font = font_size + "px arial";
     //looping over drops
     for(var i = 0; i < drops.length; i++)
