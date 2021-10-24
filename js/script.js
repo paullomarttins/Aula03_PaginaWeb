@@ -44,7 +44,7 @@ c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
 //var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
-var matrix = "こん に ち は 世 界凵凵夂 彡 厶 工 匸 匚 乀乁彐丩忄卄凵 孒 讠 巜 彑 攵 火 灬 灭 灮 災灾灿 炐炑 汑汒汓 汔については 久井町及び 大和町に限る。";
+var matrix = "こんに ち は 世 界凵凵夂 彡 厶工匸 匚乀乁彐丩 忄卄凵 孒 讠 巜 彑 攵 火 灬 灭 灮 災灾8 炐炑 汑汒汓 汔については 久井町及び 大町に7る。";
 
 //converting the string into an array of single characters
 matrix = matrix.split("");
