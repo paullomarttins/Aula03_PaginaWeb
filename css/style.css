@@ -29,6 +29,10 @@ header h3 {
   letter-spacing: 1rem;
 }
 
+#h302 {
+  letter-spacing: 1rem;
+}
+
 #c {
   display: block;
   position: fixed;
@@ -123,36 +127,36 @@ figcaption {
 .container1 {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
 }
 
 .container2 {
-  display: flex;
+  flex: auto;
   margin-left: 1rem;
 }
 
 #img1 {
   display: flex;
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
 #img2 {
   display: flex;
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
 #img3 {
   display: flex;
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
 #main_img {
   display: flex;
   width: 100%;
-  max-width: 700px;
+  max-width: 750px;
   box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
 }
 
